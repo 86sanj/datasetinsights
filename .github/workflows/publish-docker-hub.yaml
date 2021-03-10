@@ -1,7 +1,9 @@
 name: Publish Docker image
 on:
-  release:
-    types: [published]
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'test_tag'
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub
@@ -14,5 +16,5 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_ACCESS_TOKEN }}
-          repository: unitytechnologies/datasetinsights
+          repository: 86sanj/datasetinsights-test
           tag_with_ref: true
