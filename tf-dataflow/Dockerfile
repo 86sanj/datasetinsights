@@ -1,4 +1,4 @@
-FROM python:3.7.9-buster
+FROM python:3.11-buster
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-320.0.0-linux-x86_64.tar.gz && \
