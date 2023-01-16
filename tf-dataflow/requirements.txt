@@ -12,7 +12,7 @@ dill==0.3.1.1
 docopt==0.6.2
 fastavro==0.23.6
 fasteners==0.15
-future==0.18.2
+future==0.18.3
 gast==0.3.3
 google-api-core==1.22.4
 google-apitools==0.5.31
