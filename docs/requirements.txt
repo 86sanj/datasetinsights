@@ -38,7 +38,7 @@ flake8==3.8.3
 flask==1.1.2
 flask-compress==1.5.0
 fsspec==0.8.2
-future==0.18.2
+future==0.18.3
 google-api-core==1.22.2
 google-auth==1.21.1
 google-cloud-core==1.4.1
