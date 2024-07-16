@@ -153,3 +153,4 @@ widgetsnbextension==3.5.1
 yacs==0.1.8
 zict==2.0.0
 zipp==3.1.0; python_version < "3.8"
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
