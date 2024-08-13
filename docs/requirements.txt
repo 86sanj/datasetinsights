@@ -38,7 +38,7 @@ flake8==3.8.3
 flask==1.1.2
 flask-compress==1.5.0
 fsspec==0.8.2
-future==0.18.2
+future==0.18.3
 google-api-core==1.22.2
 google-auth==1.21.1
 google-cloud-core==1.4.1
@@ -121,7 +121,7 @@ regex==2020.7.14
 requests==2.24.0
 responses==0.10.16
 retrying==1.3.3
-rsa==4.6; python_version >= "3.5"
+rsa==4.7; python_version >= "3.5"
 send2trash==1.5.0
 six==1.15.0
 snowballstemmer==2.0.0
