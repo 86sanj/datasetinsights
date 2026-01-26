@@ -31,7 +31,7 @@ dash-table==4.7.0
 dask==2.26.0
 decorator==4.4.2
 defusedxml==0.6.0
-distributed==2.26.0
+distributed==2026.1.0
 docutils==0.16
 entrypoints==0.3
 flake8==3.8.3
